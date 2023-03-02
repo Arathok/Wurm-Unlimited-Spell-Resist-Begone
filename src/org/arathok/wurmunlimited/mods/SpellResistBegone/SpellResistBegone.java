@@ -45,7 +45,7 @@ public class SpellResistBegone implements WurmServerMod, PlayerMessageListener, 
             ClassPool classPool = HookManager.getInstance().getClassPool();
             CtClass ctCreature = classPool.getCtClass("com.wurmonline.server.spells.SpellResist");
             ctCreature.getMethod("addSpellResistance", "(Lcom/wurmonline/server/creatures/Creature;ID)V")
-                    .insertBefore("org.arathok.wurmunlimited.mods.SpellResistBegone.Hook.inject($2);");
+                    .insertBefore("org.arathok.wurmunlimited.mods.SpellResistBegone.Hook.inject($2);"); // get the Hook and load parameter #2 into the inject functino
 
 
         } catch (NotFoundException e) {
