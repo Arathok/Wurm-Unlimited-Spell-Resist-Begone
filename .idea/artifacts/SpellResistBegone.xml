@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="SpellResistBegone">
-    <output-path>$PROJECT_DIR$/out/artifacts/SpellResistBegone</output-path>
+    <output-path>$PROJECT_DIR$/../backup/backup/mods/SpellResistBegone</output-path>
     <root id="archive" name="SpellResistBegone.jar">
       <element id="module-output" name="Wurm-Unlimited-SpellResistBegone" />
     </root>
